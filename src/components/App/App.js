@@ -16,14 +16,14 @@ function App() {
         </Row>
         <Row className="info-container">
           <Col xs={24} md={20} offset={1}>
-            <h3>Trip Information</h3>
+            <h1>Trip Information</h1>
             <p>15/5/2018 8:07 AM</p>
             <Row className="stats">
               <Col xs={24} className="avatars">
                 <Row>
                   <Col flex="150px">
-                    <Avatar name='driver' />
-                    <Avatar name='bus' />
+                    <Avatar imagePath='https://i.ibb.co/dkC2NMy/driver.jpg' />
+                    <Avatar imagePath='https://i.ibb.co/1RJHvtZ/bus.jpg' />
                   </Col>
                   <Col flex="auto">
                     <Row>
@@ -45,13 +45,13 @@ function App() {
               </Col>
             </Row>
             <div>
-              <h3>Bookings</h3>
+              <h1>Bookings</h1>
             </div>
             <div className="bookings">
               <div className="user-card">
                 <Row className="avatars">
                   <Col>
-                    <Avatar />
+                    <Avatar imagePath='https://i.ibb.co/XyzwKN0/cutomer1.jpg' />
                   </Col>
                   <Col xs={12} md={12}>
                     <h4>Adam Danisov</h4>
@@ -62,7 +62,7 @@ function App() {
               <div className="user-card">
                 <Row className="avatars">
                   <Col>
-                    <Avatar />
+                    <Avatar imagePath='https://i.ibb.co/WGfnmvs/customer2.jpg' />
                   </Col>
                   <Col xs={12} md={12}>
                     <h4>Ilya Vasin</h4>
@@ -73,7 +73,7 @@ function App() {
               <div className="user-card">
                 <Row className="avatars">
                   <Col>
-                    <Avatar />
+                    <Avatar imagePath='https://i.ibb.co/nmgZ0fD/customer3.jpg' />
                   </Col>
                   <Col xs={12} md={12}>
                     <h4>Ingo Shimpff</h4>
@@ -84,7 +84,7 @@ function App() {
               <div className="user-card">
                 <Row className="avatars">
                   <Col>
-                    <Avatar />
+                    <Avatar imagePath='https://i.ibb.co/qjTNFMY/customer4.jpg' />
                   </Col>
                   <Col xs={12} md={12}>
                     <h4>Igor Antonov</h4>
@@ -95,7 +95,7 @@ function App() {
               <div className="user-card">
                 <Row className="avatars">
                   <Col>
-                    <Avatar />
+                    <Avatar imagePath='https://i.ibb.co/9NxLgMs/customer5.jpg' />
                   </Col>
                   <Col xs={12} md={12}>
                     <h4>Yeray Rosales</h4>
