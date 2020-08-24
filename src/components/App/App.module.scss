@@ -1,0 +1,60 @@
+.app {
+    :global {
+        .ant-layout-content {
+            @media (max-width: 480px) {
+                padding: 0 10px 10px;
+            }
+        }
+        .stats {
+            .avatars {
+                .avatar:nth-child(2) {
+                    margin-left: -30px;
+                }
+                h4{
+                    margin-bottom: 0px;
+                    padding-bottom: 5px;
+                    padding-left: 5px;
+                }
+                p{
+                    padding-left: 5px;
+                }
+                .red-left-border{
+                    border-left-style: solid;
+                    border-left-color: red;
+                }
+            }
+        }
+        .bookings {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .user-card {
+                flex: 1;
+                .avatars {
+                    .avatar:nth-child(2) {
+                        margin-left: -30px;
+                    }
+                    h4{
+                        margin-top: 10px;
+                        margin-bottom: 0px;
+                        padding-bottom: 2px;
+                        padding-left: 5px;
+                    }
+                    p{
+                        padding-left: 5px;
+                    }
+                }
+               
+            }
+            @media (max-width: 480px) {
+                display: block;
+                .user-card {
+                    margin-bottom: 10px;
+                }
+            }
+
+        }
+
+    }
+}
+  
